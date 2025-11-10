@@ -1,0 +1,110 @@
+[
+  {
+    "id": "bmw-m3-polishing",
+    "title": "BMW M3 - Восстановительная полировка",
+    "category": "polishing",
+    "beforeImage": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=600&fit=crop",
+    "afterImage": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&h=600&fit=crop",
+    "description": "Устранение глубоких царапин и восстановление заводского блеска",
+    "services": ["Полировка 3 этапа", "Защитное покрытие"]
+  },
+  {
+    "id": "mercedes-ceramic",
+    "title": "Mercedes S-Class - Керамическое покрытие",
+    "category": "ceramic",
+    "beforeImage": "https://images.unsplash.com/photo-1563720223185-11003d516935?w=800&h=600&fit=crop",
+    "afterImage": "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=800&h=600&fit=crop",
+    "description": "Нанесение керамики 9H с гарантией 3 года",
+    "services": ["Керамическое покрытие 9H", "Подготовительная полировка"]
+  },
+  {
+    "id": "audi-interior",
+    "title": "Audi Q7 - Химчистка салона",
+    "category": "interior",
+    "beforeImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop",
+    "afterImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    "description": "Глубокая химчистка кожаного салона с защитой",
+    "services": ["Химчистка салона", "Защита кожи", "Озонирование"]
+  },
+  {
+    "id": "porsche-ppf",
+    "title": "Porsche 911 - PPF защита",
+    "category": "ppf",
+    "beforeImage": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&h=600&fit=crop",
+    "afterImage": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=600&fit=crop",
+    "description": "Полная оклейка антигравийной пленкой",
+    "services": ["PPF полный кузов", "Керамическое покрытие поверх пленки"]
+  },
+  {
+    "id": "lexus-polishing",
+    "title": "Lexus RX - Коррекция лака",
+    "category": "polishing",
+    "beforeImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&h=600&fit=crop",
+    "afterImage": "https://images.unsplash.com/photo-1563720223185-11003d516935?w=800&h=600&fit=crop",
+    "description": "Удаление потертостей и восстановление глубины цвета",
+    "services": ["Полировка 2 этапа", "Нанесение воска"]
+  },
+  {
+    "id": "tesla-ceramic",
+    "title": "Tesla Model S - Керамика + PPF",
+    "category": "ceramic",
+    "beforeImage": "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=800&h=600&fit=crop",
+    "afterImage": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&h=600&fit=crop",
+    "description": "Комплексная защита нового автомобиля",
+    "services": ["PPF на уязвимые зоны", "Керамическое покрытие", "Защита стекол"]
+  },
+  {
+    "id": "range-rover-interior",
+    "title": "Range Rover - Восстановление салона",
+    "category": "interior",
+    "beforeImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    "afterImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop",
+    "description": "Реставрация потертой кожи и глубокая чистка",
+    "services": ["Реставрация кожи", "Химчистка салона", "Защита текстиля"]
+  },
+  {
+    "id": "ferrari-ppf",
+    "title": "Ferrari 488 - Защитная пленка",
+    "category": "ppf",
+    "beforeImage": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=600&fit=crop",
+    "afterImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&h=600&fit=crop",
+    "description": "Прозрачная защита для суперкара",
+    "services": ["PPF полный кузов", "Защита фар", "Керамическое покрытие"]
+  },
+  {
+    "id": "bmw-x5-polishing",
+    "title": "BMW X5 - Восстановление после ДТП",
+    "category": "polishing",
+    "beforeImage": "https://images.unsplash.com/photo-1563720223185-11003d516935?w=800&h=600&fit=crop",
+    "afterImage": "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=800&h=600&fit=crop",
+    "description": "Полировка после кузовного ремонта",
+    "services": ["Абразивная коррекция", "Полировка 3 этапа", "Защитное покрытие"]
+  },
+  {
+    "id": "maserati-ceramic",
+    "title": "Maserati Quattroporte - Премиум детейлинг",
+    "category": "ceramic",
+    "beforeImage": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&h=600&fit=crop",
+    "afterImage": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=600&fit=crop",
+    "description": "Полный цикл премиального ухода",
+    "services": ["Полировка до идеала", "Керамическое покрытие 9H", "Детейлинг салона"]
+  },
+  {
+    "id": "bentley-interior",
+    "title": "Bentley Continental - Люксовый салон",
+    "category": "interior",
+    "beforeImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop",
+    "afterImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    "description": "Деликатный уход за эксклюзивными материалами",
+    "services": ["Химчистка премиум кожи", "Уход за деревом", "Защита всех поверхностей"]
+  },
+  {
+    "id": "lamborghini-ppf",
+    "title": "Lamborghini Huracán - Полная защита",
+    "category": "ppf",
+    "beforeImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&h=600&fit=crop",
+    "afterImage": "https://images.unsplash.com/photo-1563720223185-11003d516935?w=800&h=600&fit=crop",
+    "description": "Максимальная защита суперкара",
+    "services": ["PPF полный кузов", "Керамика поверх пленки", "Защита всех элементов"]
+  }
+]

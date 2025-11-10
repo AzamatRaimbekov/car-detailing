@@ -1,0 +1,66 @@
+{
+  "name": "Prime Detail",
+  "city": "Бишкек",
+  "tagline": "Премиальный детейлинг в Бишкеке",
+  "description": "Профессиональный автодетейлинг с использованием премиальных материалов и современных технологий. Более 5 лет опыта работы с автомобилями любого класса.",
+  "colors": {
+    "primary": "#0ea5e9",
+    "secondary": "#1e293b",
+    "accent": "#0284c7"
+  },
+  "socialMedia": {
+    "instagram": "https://instagram.com/primedetail_kg",
+    "whatsapp": "https://wa.me/996555123456",
+    "telegram": "https://t.me/primedetail_kg"
+  },
+  "features": [
+    {
+      "title": "Керамика 9H",
+      "description": "Долговременная защита до 3 лет",
+      "icon": "shield-check"
+    },
+    {
+      "title": "Гарантия до 24 мес",
+      "description": "Официальная гарантия на все работы",
+      "icon": "award"
+    },
+    {
+      "title": "Профессиональные материалы",
+      "description": "Gyeon, CarPro, 3M, Suntek",
+      "icon": "star"
+    },
+    {
+      "title": "Опыт >5 лет",
+      "description": "Более 1000 довольных клиентов",
+      "icon": "users"
+    },
+    {
+      "title": "Чистая зона работ",
+      "description": "Закрытый бокс с контролем пыли",
+      "icon": "home"
+    },
+    {
+      "title": "Фото-отчет до/после",
+      "description": "Документируем каждый этап работы",
+      "icon": "camera"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Gyeon Certified",
+      "logo": "/images/certifications/gyeon.png"
+    },
+    {
+      "name": "CarPro Partner",
+      "logo": "/images/certifications/carpro.png"
+    },
+    {
+      "name": "3M Authorized",
+      "logo": "/images/certifications/3m.png"
+    },
+    {
+      "name": "Suntek Elite",
+      "logo": "/images/certifications/suntek.png"
+    }
+  ]
+}

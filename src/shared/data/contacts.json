@@ -1,0 +1,17 @@
+{
+  "address": "г. Бишкек, ул. Московская 123, бокс 5",
+  "phone": "+996 555 123 456",
+  "whatsapp": "+996 555 123 456",
+  "telegram": "@primedetail_kg",
+  "email": "info@primedetail.kg",
+  "workingHours": {
+    "weekdays": "09:00 - 20:00",
+    "weekends": "10:00 - 18:00"
+  },
+  "coordinates": {
+    "lat": 42.8746,
+    "lng": 74.5698
+  },
+  "mapUrl": "https://2gis.kg/bishkek/firm/70000001234567890",
+  "directions": "Рядом с ТЦ Дордой Плаза, въезд со стороны ул. Московская"
+}

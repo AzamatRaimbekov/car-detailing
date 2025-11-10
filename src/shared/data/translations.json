@@ -1,0 +1,180 @@
+{
+  "ru": {
+    "hero": {
+      "title": "Премиальный детейлинг в Бишкеке",
+      "subtitle": "Профессиональный уход за вашим автомобилем с использованием материалов премиум-класса",
+      "ctaBooking": "Записаться на услугу",
+      "ctaPricing": "Посмотреть прайс"
+    },
+    "navigation": {
+      "services": "Услуги",
+      "pricing": "Цены",
+      "portfolio": "Портфолио",
+      "reviews": "Отзывы",
+      "faq": "FAQ",
+      "contacts": "Контакты",
+      "booking": "Записаться"
+    },
+    "services": {
+      "title": "Наши услуги",
+      "subtitle": "Полный спектр услуг автодетейлинга - от базовой мойки до премиальной защиты керамикой и PPF пленкой",
+      "categories": {
+        "exterior": "Экстерьер",
+        "interior": "Интерьер",
+        "protection": "Защита",
+        "addons": "Дополнительно"
+      },
+      "priceFrom": "от",
+      "duration": "Время",
+      "hours": "часов",
+      "details": "Подробнее"
+    },
+    "pricing": {
+      "title": "Пакеты услуг",
+      "subtitle": "Готовые решения для любых потребностей - от быстрого ухода до премиальной защиты",
+      "recommended": "Рекомендуем",
+      "book": "Записаться",
+      "includes": "Включено"
+    },
+    "portfolio": {
+      "title": "Наше портфолио",
+      "subtitle": "Результаты нашей работы говорят сами за себя. Посмотрите, как преображаются автомобили наших клиентов",
+      "filters": {
+        "all": "Все работы",
+        "polishing": "Полировка",
+        "ceramic": "Керамика",
+        "interior": "Салон",
+        "ppf": "PPF пленка"
+      },
+      "before": "До",
+      "after": "После"
+    },
+    "reviews": {
+      "title": "Отзывы клиентов",
+      "subtitle": "Более 1000 довольных клиентов доверяют нам свои автомобили. Читайте их отзывы о нашей работе",
+      "verified": "Проверен"
+    },
+    "faq": {
+      "title": "Часто задаваемые вопросы",
+      "subtitle": "Ответы на самые популярные вопросы о наших услугах, материалах и процессах работы"
+    },
+    "booking": {
+      "title": "Записаться на услугу",
+      "subtitle": "Оставьте заявку, и мы свяжемся с вами в течение 15 минут для уточнения деталей",
+      "form": {
+        "name": "Ваше имя",
+        "phone": "Номер телефона",
+        "carModel": "Марка и модель авто",
+        "service": "Выберите услугу",
+        "package": "Или выберите пакет",
+        "preferredDate": "Предпочитаемая дата",
+        "preferredTime": "Предпочитаемое время",
+        "comment": "Дополнительные пожелания",
+        "submit": "Отправить заявку"
+      },
+      "success": "Заявка отправлена!",
+      "error": "Произошла ошибка при отправке заявки"
+    },
+    "contacts": {
+      "title": "Наши контакты",
+      "address": "Адрес",
+      "phone": "Телефон",
+      "workingHours": "Режим работы",
+      "weekdays": "Понедельник - Пятница",
+      "weekends": "Суббота - Воскресенье"
+    },
+    "footer": {
+      "copyright": "Все права защищены",
+      "privacy": "Политика конфиденциальности"
+    }
+  },
+  "en": {
+    "hero": {
+      "title": "Premium Car Detailing in Bishkek",
+      "subtitle": "Professional car care using premium materials and advanced technologies",
+      "ctaBooking": "Book Service",
+      "ctaPricing": "View Pricing"
+    },
+    "navigation": {
+      "services": "Services",
+      "pricing": "Pricing",
+      "portfolio": "Portfolio",
+      "reviews": "Reviews",
+      "faq": "FAQ",
+      "contacts": "Contacts",
+      "booking": "Book Now"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Full range of car detailing services - from basic wash to premium ceramic and PPF protection",
+      "categories": {
+        "exterior": "Exterior",
+        "interior": "Interior",
+        "protection": "Protection",
+        "addons": "Additional"
+      },
+      "priceFrom": "from",
+      "duration": "Duration",
+      "hours": "hours",
+      "details": "Details"
+    },
+    "pricing": {
+      "title": "Service Packages",
+      "subtitle": "Ready solutions for any needs - from quick care to premium protection",
+      "recommended": "Recommended",
+      "book": "Book Now",
+      "includes": "Includes"
+    },
+    "portfolio": {
+      "title": "Our Portfolio",
+      "subtitle": "Our work results speak for themselves. See how our clients' cars are transformed",
+      "filters": {
+        "all": "All Works",
+        "polishing": "Polishing",
+        "ceramic": "Ceramic",
+        "interior": "Interior",
+        "ppf": "PPF Film"
+      },
+      "before": "Before",
+      "after": "After"
+    },
+    "reviews": {
+      "title": "Client Reviews",
+      "subtitle": "Over 1000 satisfied clients trust us with their cars. Read their reviews about our work",
+      "verified": "Verified"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Answers to the most popular questions about our services, materials and work processes"
+    },
+    "booking": {
+      "title": "Book a Service",
+      "subtitle": "Leave a request and we will contact you within 15 minutes to clarify details",
+      "form": {
+        "name": "Your Name",
+        "phone": "Phone Number",
+        "carModel": "Car Make and Model",
+        "service": "Choose Service",
+        "package": "Or Choose Package",
+        "preferredDate": "Preferred Date",
+        "preferredTime": "Preferred Time",
+        "comment": "Additional Comments",
+        "submit": "Submit Request"
+      },
+      "success": "Request Sent!",
+      "error": "Error sending request"
+    },
+    "contacts": {
+      "title": "Our Contacts",
+      "address": "Address",
+      "phone": "Phone",
+      "workingHours": "Working Hours",
+      "weekdays": "Monday - Friday",
+      "weekends": "Saturday - Sunday"
+    },
+    "footer": {
+      "copyright": "All rights reserved",
+      "privacy": "Privacy Policy"
+    }
+  }
+}
