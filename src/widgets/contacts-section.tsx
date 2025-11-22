@@ -4,6 +4,18 @@ import { Card, CardContent, Button } from '../shared/ui'
 import { trackEvent } from '../shared/lib/utils'
 import contactsData from '../shared/data/contacts.json'
 
+// TikTok Icon Component
+const TikTokIcon = ({ className }: { className?: string }) => (
+  <svg
+    className={className}
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M19.589 6.686a4.793 4.793 0 0 1-3.77-4.245V2h-3.445v13.672a2.896 2.896 0 0 1-5.201 1.743l-.002-.001.002.001a2.895 2.895 0 0 1 3.183-4.51v-3.5a6.329 6.329 0 0 0-1.195 5.257c-1.094 3.465-4.767 5.954-8.468 4.883a6.33 6.33 0 0 0 1.287-11.63l.011-.001v3.351c-.141-.031-.293-.05-.445-.05a2.894 2.894 0 1 0 2.893 2.894c-.027 0-.053-.002-.08-.004v-.002h-.08v-3.507a6.329 6.329 0 0 0 5.18 5.58v3.508a2.896 2.896 0 0 1-2.363 2.843 2.899 2.899 0 0 1-3.623-2.831c0-1.179.694-2.233 1.785-2.717v3.69a4.798 4.798 0 0 0 7.94 3.494c1.785-1.749 2.125-4.445.79-6.599v-7.067c1.093.844 2.379 1.335 3.77 1.335v3.671h-.001z" />
+  </svg>
+)
+
 export function ContactsSection() {
   const handleDirectionsClick = () => {
     trackEvent('cta_click', { source: 'contacts', action: 'directions' })
@@ -23,6 +35,11 @@ export function ContactsSection() {
   const handleTelegramClick = () => {
     trackEvent('cta_click', { source: 'contacts', action: 'telegram' })
     window.open(`https://t.me/${contactsData.telegram.replace('@', '')}`, '_blank')
+  }
+
+  const handleTikTokClick = () => {
+    trackEvent('cta_click', { source: 'contacts', action: 'tiktok' })
+    window.open(contactsData.tiktok, '_blank')
   }
 
   return (
@@ -119,6 +136,17 @@ export function ContactsSection() {
                       >
                         Telegram
                       </Button>
+                      {contactsData.tiktok && (
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          onClick={handleTikTokClick}
+                          className="group-hover:border-black group-hover:text-black"
+                        >
+                          <TikTokIcon className="w-4 h-4 mr-2" />
+                          TikTok
+                        </Button>
+                      )}
                     </div>
                   </div>
                 </div>
