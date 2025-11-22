@@ -2,64 +2,64 @@
   {
     "id": "express",
     "title": "Express",
-    "description": "Быстрый уход для поддержания чистоты",
+    "description": "Quick care to maintain cleanliness",
     "includes": [
-      "Бесконтактная мойка",
-      "Сушка микрофиброй",
-      "Очистка стекол",
-      "Обработка колесных дисков",
-      "Пылесос салона"
+      "Contactless wash",
+      "Microfiber drying",
+      "Glass cleaning",
+      "Wheel treatment",
+      "Interior vacuum"
     ],
-    "priceFrom": 1500,
-    "recommendedFor": ["Еженедельный уход", "Новые автомобили", "Поддержание чистоты"]
+    "priceFrom": 75,
+    "recommendedFor": ["Weekly maintenance", "New vehicles", "Keeping it clean"]
   },
   {
     "id": "standard",
     "title": "Standard",
-    "description": "Комплексный уход для регулярного обслуживания",
+    "description": "Comprehensive care for regular maintenance",
     "includes": [
-      "Глубокая очистка кузова",
-      "Обработка битумных пятен",
-      "Химчистка салона (базовая)",
-      "Очистка и защита пластика",
-      "Полировка хромированных элементов",
-      "Ароматизация салона"
+      "Deep body cleaning",
+      "Tar spot treatment",
+      "Interior cleaning (basic)",
+      "Plastic cleaning and protection",
+      "Chrome element polishing",
+      "Interior fragrance"
     ],
-    "priceFrom": 4500,
-    "recommendedFor": ["Ежемесячный уход", "Подготовка к сезону", "Средний уровень загрязнения"]
+    "priceFrom": 225,
+    "recommendedFor": ["Monthly maintenance", "Seasonal preparation", "Medium level contamination"]
   },
   {
     "id": "pro",
     "title": "Pro",
-    "description": "Профессиональное восстановление и защита",
+    "description": "Professional restoration and protection",
     "includes": [
-      "Полировка кузова (1-2 этапа)",
-      "Глубокая химчистка салона",
-      "Восстановление фар",
-      "Защита текстиля",
-      "Мойка моторного отсека",
-      "Нанесение защитного воска",
-      "Озонирование салона"
+      "Body polishing (1-2 stage)",
+      "Deep interior cleaning",
+      "Headlight restoration",
+      "Textile protection",
+      "Engine bay cleaning",
+      "Protective wax application",
+      "Interior ozonation"
     ],
-    "priceFrom": 12000,
+    "priceFrom": 600,
     "best": true,
-    "recommendedFor": ["Восстановление после зимы", "Подготовка к продаже", "Устранение дефектов"]
+    "recommendedFor": ["Post-winter restoration", "Pre-sale preparation", "Defect removal"]
   },
   {
     "id": "ultimate",
     "title": "Ultimate",
-    "description": "Максимальная защита и премиальный уход",
+    "description": "Maximum protection and premium care",
     "includes": [
-      "Полировка кузова (3 этапа)",
-      "Керамическое покрытие 9H",
-      "Полная химчистка салона",
-      "Защита всех поверхностей",
-      "PPF защита уязвимых зон",
-      "Защита стекол",
-      "Детальная обработка всех элементов",
-      "Гарантия на покрытие 24 месяца"
+      "Body polishing (3 stage)",
+      "9H Ceramic Coating",
+      "Full interior cleaning",
+      "All surface protection",
+      "PPF protection for vulnerable areas",
+      "Glass protection",
+      "Detailed treatment of all elements",
+      "24-month coating warranty"
     ],
-    "priceFrom": 25000,
-    "recommendedFor": ["Новые премиум авто", "Долговременная защита", "Максимальный результат"]
+    "priceFrom": 1250,
+    "recommendedFor": ["New premium vehicles", "Long-term protection", "Maximum results"]
   }
 ]

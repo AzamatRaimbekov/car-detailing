@@ -79,6 +79,7 @@ export interface BrandConfig {
     facebook?: string;
     telegram?: string;
     whatsapp?: string;
+    tiktok?: string;
   };
 }
 

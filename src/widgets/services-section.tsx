@@ -9,16 +9,16 @@ import servicesData from '../shared/data/services.json'
 const services = servicesData as Service[]
 
 const categories = {
-  exterior: 'Экстерьер',
-  interior: 'Интерьер', 
-  protection: 'Защита',
-  addons: 'Дополнительно'
+  exterior: 'Exterior',
+  interior: 'Interior', 
+  protection: 'Protection',
+  addons: 'Additional'
 }
 
 const tagLabels = {
-  hit: 'Хит',
-  new: 'Новинка',
-  sale: 'Акция'
+  hit: 'Popular',
+  new: 'New',
+  sale: 'Sale'
 }
 
 export function ServicesSection() {
@@ -39,7 +39,11 @@ export function ServicesSection() {
   }
 
   return (
-    <section id="services" className="section-padding bg-white">
+    <section 
+      id="services" 
+      className="section-padding bg-white"
+      aria-label="Services - Our car detailing services"
+    >
       <div className="container mx-auto container-padding">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -49,11 +53,11 @@ export function ServicesSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-graphite-900 mb-4">
-            Наши
-            <span className="text-gradient ml-3">услуги</span>
+            Our
+            <span className="text-gradient ml-3">Services</span>
           </h2>
           <p className="text-xl text-graphite-600 max-w-3xl mx-auto">
-            Полный спектр услуг автодетейлинга - от базовой мойки до премиальной защиты керамикой и PPF пленкой
+            Full range of car detailing services - from basic wash to premium ceramic and PPF protection
           </p>
         </motion.div>
 
@@ -63,7 +67,7 @@ export function ServicesSection() {
               <TabsTrigger
                 key={key}
                 value={key}
-                className="text-base font-medium data-[state=active]:bg-liquid-gloss-500 data-[state=active]:text-white"
+                className="text-base font-medium data-[state=active]:bg-gold-500 data-[state=active]:text-white"
               >
                 {label}
               </TabsTrigger>
@@ -89,7 +93,7 @@ export function ServicesSection() {
                     <Card className="h-full group hover:shadow-xl transition-all duration-300 border-0 bg-gradient-to-br from-white to-graphite-50">
                       <CardHeader className="pb-4">
                         <div className="flex justify-between items-start mb-2">
-                          <CardTitle className="text-xl font-bold text-graphite-900 group-hover:text-liquid-gloss-600 transition-colors">
+                          <CardTitle className="text-xl font-bold text-graphite-900 group-hover:text-gold-600 transition-colors">
                             {service.title}
                           </CardTitle>
                           {service.tag && (
@@ -105,7 +109,7 @@ export function ServicesSection() {
 
                       <CardContent className="pt-0">
                         <div className="flex justify-between items-center mb-4">
-                          <div className="text-2xl font-bold text-liquid-gloss-600">
+                          <div className="text-2xl font-bold text-gold-600">
                             {formatPrice(service.priceFrom)}
                           </div>
                           {service.durationHours && (
@@ -118,10 +122,10 @@ export function ServicesSection() {
 
                         <Button
                           variant="outline"
-                          className="w-full group-hover:bg-liquid-gloss-50 group-hover:border-liquid-gloss-300 transition-colors"
+                          className="w-full group-hover:bg-gold-50 group-hover:border-gold-300 transition-colors"
                           onClick={() => handleServiceExpand(service.id)}
                         >
-                          Подробнее
+                          Details
                           {expandedService === service.id ? (
                             <ChevronUp className="w-4 h-4 ml-2" />
                           ) : (
@@ -139,12 +143,12 @@ export function ServicesSection() {
                               className="mt-4 pt-4 border-t border-graphite-200"
                             >
                               <h4 className="font-semibold text-graphite-900 mb-2">
-                                Что входит в услугу:
+                                What's included:
                               </h4>
                               <ul className="space-y-1 text-sm text-graphite-600">
                                 {service.details.map((detail, index) => (
                                   <li key={index} className="flex items-start">
-                                    <span className="w-1.5 h-1.5 bg-liquid-gloss-500 rounded-full mt-2 mr-2 flex-shrink-0" />
+                                    <span className="w-1.5 h-1.5 bg-gold-500 rounded-full mt-2 mr-2 flex-shrink-0" />
                                     {detail}
                                   </li>
                                 ))}
@@ -169,7 +173,7 @@ export function ServicesSection() {
           className="text-center mt-16"
         >
           <p className="text-graphite-600 mb-6">
-            Не нашли нужную услугу? Свяжитесь с нами для индивидуальной консультации
+            Can't find the service you need? Contact us for a personalized consultation
           </p>
           <Button
             variant="liquid"
@@ -179,7 +183,7 @@ export function ServicesSection() {
               // Scroll to contacts or open consultation form
             }}
           >
-            Получить консультацию
+            Get Consultation
           </Button>
         </motion.div>
       </div>

@@ -9,11 +9,11 @@ import portfolioData from '../shared/data/portfolio.json'
 const portfolio = portfolioData as PortfolioItem[]
 
 const categories = {
-  all: 'Все работы',
-  polishing: 'Полировка',
-  ceramic: 'Керамика',
-  interior: 'Салон',
-  ppf: 'PPF пленка'
+  all: 'All Works',
+  polishing: 'Polishing',
+  ceramic: 'Ceramic',
+  interior: 'Interior',
+  ppf: 'PPF Film'
 }
 
 export function PortfolioSection() {
@@ -53,7 +53,11 @@ export function PortfolioSection() {
   }
 
   return (
-    <section id="portfolio" className="section-padding bg-gradient-to-br from-white to-graphite-50">
+    <section 
+      id="portfolio" 
+      className="section-padding bg-gradient-to-br from-white to-graphite-50"
+      aria-label="Portfolio - Our car detailing work examples"
+    >
       <div className="container mx-auto container-padding">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -63,21 +67,21 @@ export function PortfolioSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-graphite-900 mb-4">
-            Наше
-            <span className="text-gradient ml-3">портфолио</span>
+            Our
+            <span className="text-gradient ml-3">Portfolio</span>
           </h2>
           <p className="text-xl text-graphite-600 max-w-3xl mx-auto">
-            Результаты нашей работы говорят сами за себя. Посмотрите, как преображаются автомобили наших клиентов
+            Our work results speak for themselves. See how our clients' cars are transformed
           </p>
         </motion.div>
 
         <Tabs value={activeCategory} onValueChange={handleCategoryChange} className="w-full">
-          <TabsList className="grid w-full grid-cols-5 mb-12 h-14 bg-graphite-100">
+          <TabsList className="flex w-full overflow-x-auto mb-12 h-auto min-h-14 bg-graphite-100 p-1 md:grid md:grid-cols-5">
             {Object.entries(categories).map(([key, label]) => (
               <TabsTrigger
                 key={key}
                 value={key}
-                className="text-base font-medium data-[state=active]:bg-liquid-gloss-500 data-[state=active]:text-white"
+                className="text-xs sm:text-sm md:text-base font-medium whitespace-nowrap px-2 sm:px-3 py-2 md:py-3 data-[state=active]:bg-gold-500 data-[state=active]:text-white flex-shrink-0"
               >
                 {label}
               </TabsTrigger>
@@ -107,9 +111,11 @@ export function PortfolioSection() {
                       <div className="relative aspect-[4/3] overflow-hidden">
                         <img
                           src={item.beforeImage}
-                          alt={item.title}
+                          alt={`${item.title} - Before detailing service. ${item.description}`}
                           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                           loading="lazy"
+                          width={800}
+                          height={600}
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                         <div className="absolute bottom-4 left-4 right-4 transform translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -185,12 +191,14 @@ export function PortfolioSection() {
                   <div className="flex-1 relative">
                     <img
                       src={imageView === 'before' ? selectedItem.beforeImage : selectedItem.afterImage}
-                      alt={`${selectedItem.title} - ${imageView === 'before' ? 'До' : 'После'}`}
+                      alt={`${selectedItem.title} - ${imageView === 'before' ? 'Before' : 'After'} detailing service. ${selectedItem.description}. Services: ${selectedItem.services.join(', ')}`}
                       className="w-full h-[60vh] object-cover"
+                      width={1200}
+                      height={800}
                     />
                     <div className="absolute top-4 left-4">
                       <Badge variant={imageView === 'before' ? 'destructive' : 'default'}>
-                        {imageView === 'before' ? 'До' : 'После'}
+                        {imageView === 'before' ? 'Before' : 'After'}
                       </Badge>
                     </div>
                   </div>
@@ -205,7 +213,7 @@ export function PortfolioSection() {
                       onClick={() => setImageView('before')}
                       className="rounded-full text-white"
                     >
-                      До
+                      Before
                     </Button>
                     <Button
                       variant={imageView === 'after' ? 'default' : 'ghost'}
@@ -213,7 +221,7 @@ export function PortfolioSection() {
                       onClick={() => setImageView('after')}
                       className="rounded-full text-white"
                     >
-                      После
+                      After
                     </Button>
                   </div>
                 </div>

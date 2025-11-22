@@ -48,11 +48,15 @@ export function ReviewsSection() {
   }
 
   return (
-    <section id="reviews" className="section-padding bg-gradient-to-br from-graphite-900 via-graphite-800 to-graphite-900 relative overflow-hidden">
+    <section 
+      id="reviews" 
+      className="section-padding bg-gradient-to-br from-graphite-900 via-graphite-800 to-graphite-900 relative overflow-hidden"
+      aria-label="Reviews - Client testimonials and reviews"
+    >
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-liquid-gloss-500 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-liquid-gloss-400 rounded-full blur-3xl" />
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gold-500 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-gold-400 rounded-full blur-3xl" />
       </div>
 
       <div className="container mx-auto container-padding relative z-10">
@@ -64,11 +68,11 @@ export function ReviewsSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Отзывы
-            <span className="text-gradient ml-3">клиентов</span>
+            Client
+            <span className="text-gradient ml-3">Reviews</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Более 1000 довольных клиентов доверяют нам свои автомобили. Читайте их отзывы о нашей работе
+            Over 1000 satisfied clients trust us with their cars. Read their reviews about our work
           </p>
         </motion.div>
 
@@ -84,7 +88,7 @@ export function ReviewsSection() {
             >
               <Card variant="glass" className="p-8 md:p-12 text-center">
                 <CardContent className="p-0">
-                  <Quote className="w-12 h-12 text-liquid-gloss-400 mx-auto mb-6 opacity-50" />
+                  <Quote className="w-12 h-12 text-gold-400 mx-auto mb-6 opacity-50" />
                   
                   <div className="flex justify-center mb-6">
                     {renderStars(testimonials[currentReview].rating)}
@@ -103,16 +107,16 @@ export function ReviewsSection() {
                         {testimonials[currentReview].verified && (
                           <Badge variant="verified" className="text-xs">
                             <CheckCircle className="w-3 h-3 mr-1" />
-                            Проверен
+                            Verified
                           </Badge>
                         )}
                       </div>
-                      <p className="text-liquid-gloss-400 font-medium">
+                      <p className="text-gold-400 font-medium">
                         {testimonials[currentReview].car}
                       </p>
                       {testimonials[currentReview].date && (
                         <p className="text-gray-400 text-sm mt-1">
-                          {new Date(testimonials[currentReview].date!).toLocaleDateString('ru-RU', {
+                          {new Date(testimonials[currentReview].date!).toLocaleDateString('en-US', {
                             year: 'numeric',
                             month: 'long',
                             day: 'numeric'
@@ -154,7 +158,7 @@ export function ReviewsSection() {
               onClick={() => goToReview(index)}
               className={`flex-shrink-0 p-4 rounded-lg transition-all duration-300 ${
                 index === currentReview
-                  ? 'bg-liquid-gloss-500/20 border-2 border-liquid-gloss-400'
+                  ? 'bg-gold-500/20 border-2 border-gold-400'
                   : 'bg-white/5 border border-white/10 hover:bg-white/10'
               }`}
               whileHover={{ scale: 1.05 }}
@@ -183,7 +187,7 @@ export function ReviewsSection() {
               onClick={() => goToReview(index)}
               className={`w-3 h-3 rounded-full transition-all duration-300 ${
                 index === currentReview
-                  ? 'bg-liquid-gloss-400 scale-125'
+                  ? 'bg-gold-400 scale-125'
                   : 'bg-white/30 hover:bg-white/50'
               }`}
             />
@@ -198,7 +202,7 @@ export function ReviewsSection() {
             onClick={() => setIsAutoPlaying(!isAutoPlaying)}
             className="text-white/70 hover:text-white"
           >
-            {isAutoPlaying ? 'Остановить автопрокрутку' : 'Включить автопрокрутку'}
+            {isAutoPlaying ? 'Stop Autoplay' : 'Start Autoplay'}
           </Button>
         </div>
 
@@ -211,20 +215,20 @@ export function ReviewsSection() {
           className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
         >
           <Card variant="glass" className="p-6">
-            <div className="text-3xl font-bold text-liquid-gloss-400 mb-2">1000+</div>
-            <div className="text-white text-sm">Довольных клиентов</div>
+            <div className="text-3xl font-bold text-gold-400 mb-2">1000+</div>
+            <div className="text-white text-sm">Satisfied Clients</div>
           </Card>
           <Card variant="glass" className="p-6">
-            <div className="text-3xl font-bold text-liquid-gloss-400 mb-2">5.0</div>
-            <div className="text-white text-sm">Средняя оценка</div>
+            <div className="text-3xl font-bold text-gold-400 mb-2">5.0</div>
+            <div className="text-white text-sm">Average Rating</div>
           </Card>
           <Card variant="glass" className="p-6">
-            <div className="text-3xl font-bold text-liquid-gloss-400 mb-2">98%</div>
-            <div className="text-white text-sm">Рекомендуют нас</div>
+            <div className="text-3xl font-bold text-gold-400 mb-2">98%</div>
+            <div className="text-white text-sm">Recommend Us</div>
           </Card>
           <Card variant="glass" className="p-6">
-            <div className="text-3xl font-bold text-liquid-gloss-400 mb-2">5+</div>
-            <div className="text-white text-sm">Лет опыта</div>
+            <div className="text-3xl font-bold text-gold-400 mb-2">5+</div>
+            <div className="text-white text-sm">Years Experience</div>
           </Card>
         </motion.div>
       </div>

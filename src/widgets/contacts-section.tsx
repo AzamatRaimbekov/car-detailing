@@ -26,7 +26,11 @@ export function ContactsSection() {
   }
 
   return (
-    <section id="contacts" className="section-padding bg-white">
+    <section 
+      id="contacts" 
+      className="section-padding bg-white"
+      aria-label="Contacts - Our contact information and location"
+    >
       <div className="container mx-auto container-padding">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -36,11 +40,11 @@ export function ContactsSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-graphite-900 mb-4">
-            Наши
-            <span className="text-gradient ml-3">контакты</span>
+            Our
+            <span className="text-gradient ml-3">Contacts</span>
           </h2>
           <p className="text-xl text-graphite-600 max-w-3xl mx-auto">
-            Приезжайте к нам или свяжитесь любым удобным способом. Мы всегда готовы ответить на ваши вопросы
+            Visit us or contact us in any convenient way. We are always ready to answer your questions
           </p>
         </motion.div>
 
@@ -57,21 +61,21 @@ export function ContactsSection() {
             <Card className="group hover:shadow-lg transition-all duration-300 border-0 bg-gradient-to-br from-white to-graphite-50">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-liquid-gloss-100 rounded-xl flex items-center justify-center group-hover:bg-liquid-gloss-200 transition-colors">
-                    <MapPin className="w-6 h-6 text-liquid-gloss-600" />
+                  <div className="w-12 h-12 bg-gold-100 rounded-xl flex items-center justify-center group-hover:bg-gold-200 transition-colors">
+                    <MapPin className="w-6 h-6 text-gold-600" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-xl font-bold text-graphite-900 mb-2">Адрес</h3>
+                    <h3 className="text-xl font-bold text-graphite-900 mb-2">Address</h3>
                     <p className="text-graphite-700 mb-3">{contactsData.address}</p>
                     <p className="text-graphite-600 text-sm mb-4">{contactsData.directions}</p>
                     <Button
                       variant="outline"
                       size="sm"
                       onClick={handleDirectionsClick}
-                      className="group-hover:border-liquid-gloss-300 group-hover:text-liquid-gloss-600"
+                      className="group-hover:border-gold-300 group-hover:text-gold-600"
                     >
                       <Navigation className="w-4 h-4 mr-2" />
-                      Построить маршрут
+                      Get Directions
                     </Button>
                   </div>
                 </div>
@@ -82,12 +86,12 @@ export function ContactsSection() {
             <Card className="group hover:shadow-lg transition-all duration-300 border-0 bg-gradient-to-br from-white to-graphite-50">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-liquid-gloss-100 rounded-xl flex items-center justify-center group-hover:bg-liquid-gloss-200 transition-colors">
-                    <Phone className="w-6 h-6 text-liquid-gloss-600" />
+                  <div className="w-12 h-12 bg-gold-100 rounded-xl flex items-center justify-center group-hover:bg-gold-200 transition-colors">
+                    <Phone className="w-6 h-6 text-gold-600" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-xl font-bold text-graphite-900 mb-2">Телефон</h3>
-                    <p className="text-2xl font-bold text-liquid-gloss-600 mb-4">
+                    <h3 className="text-xl font-bold text-graphite-900 mb-2">Phone</h3>
+                    <p className="text-2xl font-bold text-gold-600 mb-4">
                       {contactsData.phone}
                     </p>
                     <div className="flex flex-col sm:flex-row gap-2">
@@ -96,7 +100,7 @@ export function ContactsSection() {
                         size="sm"
                         onClick={handlePhoneClick}
                       >
-                        Позвонить
+                        Call
                       </Button>
                       <Button
                         variant="outline"
@@ -125,27 +129,27 @@ export function ContactsSection() {
             <Card className="group hover:shadow-lg transition-all duration-300 border-0 bg-gradient-to-br from-white to-graphite-50">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-liquid-gloss-100 rounded-xl flex items-center justify-center group-hover:bg-liquid-gloss-200 transition-colors">
-                    <Clock className="w-6 h-6 text-liquid-gloss-600" />
+                  <div className="w-12 h-12 bg-gold-100 rounded-xl flex items-center justify-center group-hover:bg-gold-200 transition-colors">
+                    <Clock className="w-6 h-6 text-gold-600" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-xl font-bold text-graphite-900 mb-4">Режим работы</h3>
+                    <h3 className="text-xl font-bold text-graphite-900 mb-4">Working Hours</h3>
                     <div className="space-y-2">
                       <div className="flex justify-between items-center">
-                        <span className="text-graphite-700">Понедельник - Пятница</span>
+                        <span className="text-graphite-700">Monday - Friday</span>
                         <span className="font-semibold text-graphite-900">
                           {contactsData.workingHours.weekdays}
                         </span>
                       </div>
                       <div className="flex justify-between items-center">
-                        <span className="text-graphite-700">Суббота - Воскресенье</span>
+                        <span className="text-graphite-700">Saturday - Sunday</span>
                         <span className="font-semibold text-graphite-900">
                           {contactsData.workingHours.weekends}
                         </span>
                       </div>
                     </div>
                     <p className="text-graphite-600 text-sm mt-4">
-                      Работаем без перерывов и выходных. Предварительная запись обязательна.
+                      We work without breaks and weekends. Advance booking is required.
                     </p>
                   </div>
                 </div>
@@ -157,14 +161,14 @@ export function ContactsSection() {
               <Card className="group hover:shadow-lg transition-all duration-300 border-0 bg-gradient-to-br from-white to-graphite-50">
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-liquid-gloss-100 rounded-xl flex items-center justify-center group-hover:bg-liquid-gloss-200 transition-colors">
-                      <MessageCircle className="w-6 h-6 text-liquid-gloss-600" />
+                    <div className="w-12 h-12 bg-gold-100 rounded-xl flex items-center justify-center group-hover:bg-gold-200 transition-colors">
+                      <MessageCircle className="w-6 h-6 text-gold-600" />
                     </div>
                     <div className="flex-1">
                       <h3 className="text-xl font-bold text-graphite-900 mb-2">Email</h3>
                       <a
                         href={`mailto:${contactsData.email}`}
-                        className="text-liquid-gloss-600 hover:text-liquid-gloss-700 font-medium text-lg"
+                        className="text-gold-600 hover:text-gold-700 font-medium text-lg"
                       >
                         {contactsData.email}
                       </a>
@@ -186,11 +190,11 @@ export function ContactsSection() {
             <Card className="overflow-hidden border-0 shadow-xl">
               <div className="relative h-96 lg:h-full min-h-[500px]">
                 {/* Static map image as placeholder */}
-                <div className="absolute inset-0 bg-gradient-to-br from-liquid-gloss-100 to-liquid-gloss-200 flex items-center justify-center">
+                <div className="absolute inset-0 bg-gradient-to-br from-gold-100 to-gold-200 flex items-center justify-center">
                   <div className="text-center">
-                    <MapPin className="w-16 h-16 text-liquid-gloss-600 mx-auto mb-4" />
+                    <MapPin className="w-16 h-16 text-gold-600 mx-auto mb-4" />
                     <h3 className="text-xl font-bold text-graphite-900 mb-2">
-                      Prime Detail
+                      SHINE PORT
                     </h3>
                     <p className="text-graphite-600 mb-4">
                       {contactsData.address}
@@ -199,7 +203,7 @@ export function ContactsSection() {
                       variant="liquid"
                       onClick={handleDirectionsClick}
                     >
-                      Открыть в картах
+                      Open in Maps
                     </Button>
                   </div>
                 </div>
@@ -231,33 +235,33 @@ export function ContactsSection() {
         >
           <div className="bg-gradient-to-br from-graphite-50 to-white rounded-2xl p-8 md:p-12">
             <h3 className="text-2xl md:text-3xl font-bold text-graphite-900 mb-4">
-              Удобное расположение
+              Convenient Location
             </h3>
             <p className="text-graphite-600 text-lg mb-6 max-w-3xl mx-auto">
-              Наш детейлинг-центр расположен в удобном месте с легким доступом и парковкой. 
-              Рядом есть кафе и торговые центры, где вы можете провести время, пока мы работаем с вашим автомобилем.
+              Our detailing center is located in a convenient place with easy access and parking. 
+              There are cafes and shopping centers nearby where you can spend time while we work on your car.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
               <div className="text-center">
-                <div className="w-12 h-12 bg-liquid-gloss-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-                  <span className="text-liquid-gloss-600 font-bold">🚗</span>
+                <div className="w-12 h-12 bg-gold-100 rounded-xl flex items-center justify-center mx-auto mb-3">
+                  <span className="text-gold-600 font-bold">🚗</span>
                 </div>
-                <h4 className="font-semibold text-graphite-900 mb-1">Удобная парковка</h4>
-                <p className="text-graphite-600 text-sm">Просторная парковка для любых автомобилей</p>
+                <h4 className="font-semibold text-graphite-900 mb-1">Convenient Parking</h4>
+                <p className="text-graphite-600 text-sm">Spacious parking for any vehicles</p>
               </div>
               <div className="text-center">
-                <div className="w-12 h-12 bg-liquid-gloss-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-                  <span className="text-liquid-gloss-600 font-bold">☕</span>
+                <div className="w-12 h-12 bg-gold-100 rounded-xl flex items-center justify-center mx-auto mb-3">
+                  <span className="text-gold-600 font-bold">☕</span>
                 </div>
-                <h4 className="font-semibold text-graphite-900 mb-1">Зона ожидания</h4>
-                <p className="text-graphite-600 text-sm">Комфортная зона с Wi-Fi и напитками</p>
+                <h4 className="font-semibold text-graphite-900 mb-1">Waiting Area</h4>
+                <p className="text-graphite-600 text-sm">Comfortable area with Wi-Fi and beverages</p>
               </div>
               <div className="text-center">
-                <div className="w-12 h-12 bg-liquid-gloss-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-                  <span className="text-liquid-gloss-600 font-bold">🛍️</span>
+                <div className="w-12 h-12 bg-gold-100 rounded-xl flex items-center justify-center mx-auto mb-3">
+                  <span className="text-gold-600 font-bold">🛍️</span>
                 </div>
-                <h4 className="font-semibold text-graphite-900 mb-1">Рядом ТЦ</h4>
-                <p className="text-graphite-600 text-sm">Магазины и кафе в шаговой доступности</p>
+                <h4 className="font-semibold text-graphite-900 mb-1">Nearby Shopping</h4>
+                <p className="text-graphite-600 text-sm">Shops and cafes within walking distance</p>
               </div>
             </div>
           </div>

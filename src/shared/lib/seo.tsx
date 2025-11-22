@@ -10,11 +10,11 @@ interface SEOProps {
 }
 
 export function SEO({
-  title = 'Prime Detail - Премиальный автодетейлинг в Бишкеке',
-  description = 'Профессиональный автодетейлинг в Бишкеке: керамическое покрытие, PPF защита, полировка, химчистка салона. Гарантия качества до 24 месяцев. Записывайтесь онлайн!',
-  keywords = 'автодетейлинг, детейлинг, керамическое покрытие, PPF, полировка, химчистка, Бишкек, автомойка, защита авто',
+  title = 'SHINE PORT - Premium Car Detailing in America',
+  description = 'Professional car detailing in America: ceramic coating, PPF protection, polishing, interior deep clean. Quality warranty up to 24 months. Book online!',
+  keywords = 'car detailing, detailing, ceramic coating, PPF, polishing, interior cleaning, America, car wash, car protection',
   image = '/images/og-image.jpg',
-  url = 'https://primedetail.kg',
+  url = 'https://shineport.us',
   type = 'website'
 }: SEOProps) {
   useEffect(() => {
@@ -25,8 +25,8 @@ export function SEO({
     const metaTags = [
       { name: 'description', content: description },
       { name: 'keywords', content: keywords },
-      { name: 'author', content: 'Prime Detail' },
-      { name: 'robots', content: 'index, follow' },
+      { name: 'author', content: 'SHINE PORT' },
+      { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
       
       // Open Graph
       { property: 'og:title', content: title },
@@ -34,8 +34,8 @@ export function SEO({
       { property: 'og:image', content: image },
       { property: 'og:url', content: url },
       { property: 'og:type', content: type },
-      { property: 'og:site_name', content: 'Prime Detail' },
-      { property: 'og:locale', content: 'ru_RU' },
+      { property: 'og:site_name', content: 'SHINE PORT' },
+      { property: 'og:locale', content: 'en_US' },
       
       // Twitter Card
       { name: 'twitter:card', content: 'summary_large_image' },
@@ -44,11 +44,29 @@ export function SEO({
       { name: 'twitter:image', content: image },
       
       // Additional meta tags
-      { name: 'theme-color', content: '#0ea5e9' },
-      { name: 'msapplication-TileColor', content: '#0ea5e9' },
+      { name: 'theme-color', content: '#ffd700' },
+      { name: 'msapplication-TileColor', content: '#ffd700' },
       { name: 'apple-mobile-web-app-capable', content: 'yes' },
       { name: 'apple-mobile-web-app-status-bar-style', content: 'default' },
+      { name: 'apple-mobile-web-app-title', content: 'SHINE PORT' },
       { name: 'format-detection', content: 'telephone=yes' },
+      { name: 'geo.region', content: 'US-CA' },
+      { name: 'geo.placename', content: 'Los Angeles' },
+      { name: 'geo.position', content: '34.0522;-118.2437' },
+      { name: 'ICBM', content: '34.0522, -118.2437' },
+      { name: 'language', content: 'English' },
+      { name: 'revisit-after', content: '7 days' },
+      { name: 'rating', content: 'general' },
+      
+      // Enhanced Open Graph
+      { property: 'og:image:width', content: '1200' },
+      { property: 'og:image:height', content: '630' },
+      { property: 'og:image:alt', content: title },
+      
+      // Enhanced Twitter
+      { name: 'twitter:creator', content: '@shineport_us' },
+      { name: 'twitter:site', content: '@shineport_us' },
+      { name: 'twitter:image:alt', content: title },
     ]
 
     metaTags.forEach(({ name, property, content }) => {
@@ -98,94 +116,186 @@ export function StructuredData({ data }: { data: object }) {
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://primedetail.kg/#organization",
-  "name": "Prime Detail",
-  "alternateName": "Прайм Детейл",
-  "description": "Премиальный автодетейлинг в Бишкеке. Керамическое покрытие, PPF защита, полировка, химчистка салона.",
-  "url": "https://primedetail.kg",
-  "telephone": "+996555123456",
-  "email": "info@primedetail.kg",
+  "@id": "https://shineport.us/#organization",
+  "name": "SHINE PORT",
+  "alternateName": "SHINE PORT",
+  "description": "Premium car detailing in America. Ceramic coating, PPF protection, polishing, interior deep clean.",
+  "url": "https://shineport.us",
+  "telephone": "+15551234567",
+  "email": "info@shineport.us",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "ул. Московская 123, бокс 5",
-    "addressLocality": "Бишкек",
-    "addressCountry": "KG"
+    "streetAddress": "123 Main Street, Suite 5",
+    "addressLocality": "Los Angeles",
+    "addressCountry": "US"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 42.8746,
-    "longitude": 74.5698
+    "latitude": 34.0522,
+    "longitude": -118.2437
   },
   "openingHours": [
     "Mo-Fr 09:00-20:00",
     "Sa-Su 10:00-18:00"
   ],
   "priceRange": "$$",
-  "image": "https://primedetail.kg/images/logo.jpg",
-  "logo": "https://primedetail.kg/images/logo.jpg",
+  "image": "https://shineport.us/images/logo.jpg",
+  "logo": "https://shineport.us/images/logo.jpg",
   "sameAs": [
-    "https://instagram.com/primedetail_kg",
-    "https://t.me/primedetail_kg"
+    "https://instagram.com/primedetail_us",
+    "https://t.me/primedetail_us"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Услуги автодетейлинга",
+    "name": "Car Detailing Services",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Керамическое покрытие 9H",
-          "description": "Долговременная защита кузова на 2-3 года"
+          "name": "9H Ceramic Coating",
+          "description": "Long-lasting body protection for 2-3 years"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "PPF защитная пленка",
-          "description": "Антигравийная защита от сколов и царапин"
+          "name": "PPF Protection Film",
+          "description": "Anti-gravel protection against chips and scratches"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Полировка кузова",
-          "description": "Восстановление блеска и удаление дефектов"
+          "name": "Body Polishing",
+          "description": "Restore shine and remove defects"
         }
       }
     ]
   }
 }
 
-export const faqSchema = {
+// Generate FAQ schema from FAQ data
+export function generateFAQSchema(faqData: Array<{id: string, question: string, answer: string}>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqData.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
+  }
+}
+
+// Breadcrumbs schema
+export const breadcrumbsSchema = {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-      "@type": "Question",
-      "name": "Сколько держится керамическое покрытие?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Керамическое покрытие 9H держится от 2 до 3 лет при правильном уходе. Срок службы зависит от условий эксплуатации автомобиля, частоты моек и качества используемых средств. Мы предоставляем гарантию на покрытие до 24 месяцев."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Чем отличается полировка от абразивной коррекции?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Абразивная коррекция - это процесс удаления дефектов лакокрасочного покрытия (царапины, потертости, окисление) с помощью абразивных паст. Полировка - финишный этап, придающий блеск и глубину цвета."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Нужен ли детейлинг новому автомобилю?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Да, новому автомобилю детейлинг очень полезен. Заводское покрытие часто имеет микродефекты от транспортировки и хранения. Профессиональная подготовка и нанесение защитных покрытий с самого начала обеспечат долговременную сохранность внешнего вида."
-      }
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://shineport.us/"
     }
   ]
+}
+
+// Website schema
+export const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "SHINE PORT",
+  "url": "https://shineport.us",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://shineport.us/?s={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+
+// Service schema generator
+export function generateServiceSchema(service: {
+  id: string,
+  title: string,
+  description: string,
+  priceFrom: number,
+  durationHours?: number,
+  category: string
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": service.title,
+    "description": service.description || service.title,
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "SHINE PORT",
+      "url": "https://shineport.us"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Los Angeles"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": service.priceFrom,
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": service.priceFrom,
+        "priceCurrency": "USD",
+        "valueAddedTaxIncluded": true
+      }
+    },
+    "category": service.category
+  }
+}
+
+// Review schema generator
+export function generateReviewSchema(reviews: Array<{
+  id: string,
+  name: string,
+  text: string,
+  rating: number,
+  date?: string,
+  car?: string
+}>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "SHINE PORT",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": reviews.length.toString(),
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "review": reviews.map(review => ({
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": review.name
+      },
+      "reviewBody": review.text,
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": review.rating.toString(),
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "datePublished": review.date || new Date().toISOString()
+    }))
+  }
 }

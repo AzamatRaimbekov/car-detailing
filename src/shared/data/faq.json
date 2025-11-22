@@ -1,62 +1,62 @@
 [
   {
     "id": "ceramic-duration",
-    "question": "Сколько держится керамическое покрытие?",
-    "answer": "Керамическое покрытие 9H держится от 2 до 3 лет при правильном уходе. Срок службы зависит от условий эксплуатации автомобиля, частоты моек и качества используемых средств. Мы предоставляем гарантию на покрытие до 24 месяцев.",
+    "question": "How long does ceramic coating last?",
+    "answer": "9H ceramic coating lasts from 2 to 3 years with proper care. Service life depends on vehicle usage conditions, wash frequency, and quality of products used. We provide up to 24 months warranty on the coating.",
     "category": "protection"
   },
   {
     "id": "polishing-difference",
-    "question": "Чем отличается полировка от абразивной коррекции?",
-    "answer": "Абразивная коррекция - это процесс удаления дефектов лакокрасочного покрытия (царапины, потертости, окисление) с помощью абразивных паст. Полировка - финишный этап, придающий блеск и глубину цвета. Коррекция может включать несколько этапов с разной степенью абразивности.",
+    "question": "What's the difference between polishing and abrasive correction?",
+    "answer": "Abrasive correction is the process of removing paintwork defects (scratches, swirls, oxidation) using abrasive compounds. Polishing is the final stage that adds shine and depth to the color. Correction can include multiple stages with different levels of abrasiveness.",
     "category": "services"
   },
   {
     "id": "new-car-detailing",
-    "question": "Нужен ли детейлинг новому автомобилю?",
-    "answer": "Да, новому автомобилю детейлинг очень полезен. Заводское покрытие часто имеет микродефекты от транспортировки и хранения. Профессиональная подготовка и нанесение защитных покрытий с самого начала обеспечат долговременную сохранность внешнего вида.",
+    "question": "Does a new car need detailing?",
+    "answer": "Yes, detailing is very beneficial for new cars. Factory paint often has micro-defects from transportation and storage. Professional preparation and protective coating application from the start will ensure long-term appearance preservation.",
     "category": "general"
   },
   {
     "id": "ppf-vs-ceramic",
-    "question": "Что лучше: PPF или керамическое покрытие?",
-    "answer": "PPF (антигравийная пленка) защищает от физических повреждений - сколы, царапины, абразивное воздействие. Керамика защищает от химических воздействий, УФ-лучей, облегчает мойку. Для максимальной защиты рекомендуем комбинировать: PPF на уязвимые зоны + керамика на всю машину.",
+    "question": "What's better: PPF or ceramic coating?",
+    "answer": "PPF (paint protection film) protects against physical damage - chips, scratches, abrasive impact. Ceramic protects against chemical damage, UV rays, and makes washing easier. For maximum protection, we recommend combining: PPF on vulnerable areas + ceramic on entire vehicle.",
     "category": "protection"
   },
   {
     "id": "interior-cleaning-frequency",
-    "question": "Как часто нужно делать химчистку салона?",
-    "answer": "Рекомендуемая частота химчистки салона - 1-2 раза в год для обычного использования. При интенсивной эксплуатации (дети, животные, курение) может потребоваться чаще. Регулярная поддерживающая чистка поможет продлить интервалы между глубокими чистками.",
+    "question": "How often should interior cleaning be done?",
+    "answer": "Recommended frequency for interior cleaning is 1-2 times per year for normal use. With intensive use (children, pets, smoking) it may be needed more often. Regular maintenance cleaning will help extend intervals between deep cleans.",
     "category": "interior"
   },
   {
     "id": "winter-preparation",
-    "question": "Как подготовить автомобиль к зиме?",
-    "answer": "Подготовка к зиме включает: защитную полировку кузова, обработку антикором скрытых полостей, нанесение защитных составов на резиновые уплотнители, химчистку салона, обработку кожи защитными средствами. Также рекомендуем нанести гидрофобное покрытие на стекла.",
+    "question": "How to prepare a car for winter?",
+    "answer": "Winter preparation includes: protective body polishing, anti-corrosion treatment of hidden cavities, protective compound application on rubber seals, interior cleaning, leather protection treatment. We also recommend applying hydrophobic coating to glass.",
     "category": "seasonal"
   },
   {
     "id": "headlight-restoration",
-    "question": "Можно ли восстановить сильно помутневшие фары?",
-    "answer": "Да, в большинстве случаев помутневшие фары можно полностью восстановить. Процесс включает шлифовку, полировку и нанесение защитного покрытия. Результат - возвращение прозрачности до 95-98% от первоначального состояния. Процедура занимает 2-4 часа в зависимости от степени повреждения.",
+    "question": "Can severely hazy headlights be restored?",
+    "answer": "Yes, in most cases hazy headlights can be fully restored. The process includes sanding, polishing, and protective coating application. Result - restoration of clarity to 95-98% of original condition. Procedure takes 2-4 hours depending on damage level.",
     "category": "restoration"
   },
   {
     "id": "booking-advance",
-    "question": "За сколько нужно записываться на услуги?",
-    "answer": "Рекомендуем записываться за 3-7 дней для стандартных услуг. Для сложных работ (PPF, многоэтапная полировка) - за 1-2 недели. В сезон повышенного спроса (весна, подготовка к лету) лучше планировать заранее. Экспресс-услуги часто доступны в день обращения.",
+    "question": "How far in advance should I book services?",
+    "answer": "We recommend booking 3-7 days in advance for standard services. For complex work (PPF, multi-stage polishing) - 1-2 weeks ahead. During high-demand season (spring, summer preparation) it's better to plan ahead. Express services are often available same day.",
     "category": "booking"
   },
   {
     "id": "price-factors",
-    "question": "От чего зависит стоимость услуг?",
-    "answer": "Стоимость зависит от: размера и класса автомобиля, состояния лакокрасочного покрытия, выбранных материалов, сложности работ, дополнительных услуг. Мы всегда проводим предварительную диагностику и озвучиваем финальную стоимость до начала работ.",
+    "question": "What determines service pricing?",
+    "answer": "Pricing depends on: vehicle size and class, paintwork condition, materials selected, work complexity, additional services. We always perform preliminary diagnostics and provide final pricing before starting work.",
     "category": "pricing"
   },
   {
     "id": "warranty-terms",
-    "question": "Какие гарантии вы предоставляете?",
-    "answer": "Мы предоставляем гарантию на все виды работ: керамическое покрытие - до 24 месяцев, PPF - до 5 лет (в зависимости от производителя пленки), полировка - 3 месяца, химчистка - 1 месяц. Гарантия покрывает качество выполненных работ при соблюдении рекомендаций по уходу.",
+    "question": "What warranties do you provide?",
+    "answer": "We provide warranties on all types of work: ceramic coating - up to 24 months, PPF - up to 5 years (depending on film manufacturer), polishing - 3 months, interior cleaning - 1 month. Warranty covers quality of work performed when following care recommendations.",
     "category": "warranty"
   }
 ]

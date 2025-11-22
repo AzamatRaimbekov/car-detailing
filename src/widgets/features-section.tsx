@@ -5,38 +5,38 @@ import { Card, CardContent } from '../shared/ui'
 const features = [
   {
     icon: ShieldCheck,
-    title: 'Керамика 9H',
-    description: 'Долговременная защита до 3 лет с официальной гарантией',
+    title: '9H Ceramic',
+    description: 'Long-lasting protection up to 3 years with official warranty',
     gradient: 'from-blue-500 to-cyan-500'
   },
   {
     icon: Award,
-    title: 'Гарантия до 24 мес',
-    description: 'Официальная гарантия на все виды работ и материалы',
+    title: '24 Month Warranty',
+    description: 'Official warranty on all types of work and materials',
     gradient: 'from-purple-500 to-pink-500'
   },
   {
     icon: Star,
-    title: 'Профессиональные материалы',
-    description: 'Gyeon, CarPro, 3M, Suntek - только проверенные бренды',
+    title: 'Professional Materials',
+    description: 'Gyeon, CarPro, 3M, Suntek - only trusted brands',
     gradient: 'from-orange-500 to-red-500'
   },
   {
     icon: Users,
-    title: 'Опыт >5 лет',
-    description: 'Более 1000 довольных клиентов и безупречная репутация',
+    title: '5+ Years Experience',
+    description: 'Over 1000 satisfied clients and impeccable reputation',
     gradient: 'from-green-500 to-emerald-500'
   },
   {
     icon: Home,
-    title: 'Чистая зона работ',
-    description: 'Закрытый бокс с контролем пыли и оптимальными условиями',
+    title: 'Clean Work Zone',
+    description: 'Enclosed bay with dust control and optimal conditions',
     gradient: 'from-indigo-500 to-blue-500'
   },
   {
     icon: Camera,
-    title: 'Фото-отчет до/после',
-    description: 'Документируем каждый этап работы для вашего спокойствия',
+    title: 'Before/After Photos',
+    description: 'We document every step of the work for your peace of mind',
     gradient: 'from-teal-500 to-cyan-500'
   }
 ]
@@ -64,7 +64,10 @@ const itemVariants = {
 
 export function FeaturesSection() {
   return (
-    <section className="section-padding bg-gradient-to-br from-graphite-50 to-white">
+    <section 
+      className="section-padding bg-gradient-to-br from-graphite-50 to-white"
+      aria-label="Features - Why choose SHINE PORT"
+    >
       <div className="container mx-auto container-padding">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -74,12 +77,12 @@ export function FeaturesSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-graphite-900 mb-4">
-            Почему выбирают
-            <span className="text-gradient ml-3">Prime Detail</span>
+            Why Choose
+            <span className="text-gradient ml-3">SHINE PORT</span>
           </h2>
           <p className="text-xl text-graphite-600 max-w-3xl mx-auto">
-            Мы используем только проверенные технологии и материалы премиум-класса, 
-            чтобы ваш автомобиль получил максимальную защиту и безупречный внешний вид
+            We use only proven technologies and premium materials 
+            to give your car maximum protection and impeccable appearance
           </p>
         </motion.div>
 
@@ -108,7 +111,7 @@ export function FeaturesSection() {
                       <div className="absolute inset-0 w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                     </div>
                     
-                    <h3 className="text-xl font-bold text-graphite-900 mb-3 group-hover:text-liquid-gloss-600 transition-colors">
+                    <h3 className="text-xl font-bold text-graphite-900 mb-3 group-hover:text-gold-600 transition-colors">
                       {feature.title}
                     </h3>
                     
@@ -130,12 +133,12 @@ export function FeaturesSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="mt-20 text-center"
         >
-          <p className="text-graphite-500 mb-8 text-lg">Сертифицированные партнеры</p>
+          <p className="text-graphite-500 mb-8 text-lg">Certified Partners</p>
           <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
             {['Gyeon', 'CarPro', '3M', 'Suntek'].map((brand) => (
               <div
                 key={brand}
-                className="text-2xl font-bold text-graphite-400 hover:text-liquid-gloss-500 transition-colors cursor-pointer"
+                className="text-2xl font-bold text-graphite-400 hover:text-gold-500 transition-colors cursor-pointer"
               >
                 {brand}
               </div>

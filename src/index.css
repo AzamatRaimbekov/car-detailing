@@ -11,19 +11,19 @@
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 221.2 83.2% 53.3%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 222.2 84% 4.9%;
+    --primary: 43 96% 56%; /* Gold #ffd700 */
+    --primary-foreground: 222.2 84% 4.9%;
+    --secondary: 12 73% 54%; /* Sunset orange #ff6b35 */
+    --secondary-foreground: 210 40% 98%;
     --muted: 210 40% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96%;
+    --accent: 39 100% 50%; /* Amber #ffa500 */
     --accent-foreground: 222.2 84% 4.9%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83.2% 53.3%;
+    --ring: 43 96% 56%; /* Gold */
     --radius: 0.75rem;
   }
 
@@ -70,12 +70,20 @@
     @apply bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-all duration-300;
   }
   
-  .liquid-gradient {
-    background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%);
+  .sunset-gradient {
+    background: linear-gradient(135deg, #ff6b35 0%, #e85a4f 50%, #c44536 100%);
+  }
+  
+  .gold-gradient {
+    background: linear-gradient(135deg, #ffd700 0%, #f4c430 50%, #d4af37 100%);
   }
   
   .text-gradient {
-    @apply bg-gradient-to-r from-liquid-gloss-400 to-liquid-gloss-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-gold-400 via-amber-500 to-gold-600 bg-clip-text text-transparent;
+  }
+  
+  .text-gold {
+    @apply bg-gradient-to-r from-gold-400 to-gold-600 bg-clip-text text-transparent;
   }
   
   .shine-effect {
@@ -125,16 +133,16 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-liquid-gloss-400 rounded-full;
+  @apply bg-gold-500 rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-liquid-gloss-500;
+  @apply bg-gold-600;
 }
 
 /* Focus styles */
 .focus-visible {
-  @apply outline-none ring-2 ring-liquid-gloss-400 ring-offset-2;
+  @apply outline-none ring-2 ring-gold-400 ring-offset-2;
 }
 
 /* Loading skeleton */

@@ -1,47 +1,52 @@
 {
-  "name": "Prime Detail",
-  "city": "Бишкек",
-  "tagline": "Премиальный детейлинг в Бишкеке",
-  "description": "Профессиональный автодетейлинг с использованием премиальных материалов и современных технологий. Более 5 лет опыта работы с автомобилями любого класса.",
+  "name": "SHINE PORT",
+  "city": "America",
+  "tagline": "Premium Car Detailing in America",
+  "description": "Professional car detailing using premium materials and modern technologies. Over 5 years of experience working with vehicles of any class.",
   "colors": {
-    "primary": "#0ea5e9",
-    "secondary": "#1e293b",
-    "accent": "#0284c7"
+    "primary": "#ffd700",
+    "secondary": "#ff6b35",
+    "accent": "#ffa500",
+    "gold": "#ffd700",
+    "sunset": "#ff6b35",
+    "amber": "#ffa500"
   },
   "socialMedia": {
-    "instagram": "https://instagram.com/primedetail_kg",
-    "whatsapp": "https://wa.me/996555123456",
-    "telegram": "https://t.me/primedetail_kg"
+    "instagram": "https://instagram.com/primedetail_us",
+    "whatsapp": "https://wa.me/15551234567",
+    "telegram": "https://t.me/primedetail_us",
+    "tiktok": "https://www.tiktok.com/@shineport1?_r=1&_t=ZT-913IjCZVVBP",
+    "facebook": "https://www.facebook.com/ulan.kasimov.191576?mibextid=wwXIfr"
   },
   "features": [
     {
-      "title": "Керамика 9H",
-      "description": "Долговременная защита до 3 лет",
+      "title": "9H Ceramic",
+      "description": "Long-lasting protection up to 3 years",
       "icon": "shield-check"
     },
     {
-      "title": "Гарантия до 24 мес",
-      "description": "Официальная гарантия на все работы",
+      "title": "24 Month Warranty",
+      "description": "Official warranty on all work",
       "icon": "award"
     },
     {
-      "title": "Профессиональные материалы",
+      "title": "Professional Materials",
       "description": "Gyeon, CarPro, 3M, Suntek",
       "icon": "star"
     },
     {
-      "title": "Опыт >5 лет",
-      "description": "Более 1000 довольных клиентов",
+      "title": "5+ Years Experience",
+      "description": "Over 1000 satisfied clients",
       "icon": "users"
     },
     {
-      "title": "Чистая зона работ",
-      "description": "Закрытый бокс с контролем пыли",
+      "title": "Clean Work Zone",
+      "description": "Enclosed bay with dust control",
       "icon": "home"
     },
     {
-      "title": "Фото-отчет до/после",
-      "description": "Документируем каждый этап работы",
+      "title": "Before/After Photos",
+      "description": "We document every step of the work",
       "icon": "camera"
     }
   ],

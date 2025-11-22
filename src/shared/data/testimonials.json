@@ -1,91 +1,91 @@
 [
   {
     "id": "review-1",
-    "name": "Алексей Петров",
+    "name": "Alex Peterson",
     "car": "BMW M3",
     "rating": 5,
-    "text": "Невероятный результат! Машина выглядит лучше, чем в салоне. Керамическое покрытие держится уже год - никаких нареканий. Профессионалы своего дела!",
+    "text": "Incredible results! My car looks better than it did at the dealership. The ceramic coating has been holding up for a year now - no complaints. True professionals!",
     "verified": true,
     "date": "2024-10-15"
   },
   {
     "id": "review-2",
-    "name": "Мария Сидорова",
+    "name": "Maria Johnson",
     "car": "Mercedes GLC",
     "rating": 5,
-    "text": "Обратилась после неудачной мойки в другом месте. Здесь не только исправили все недочеты, но и сделали салон идеально чистым. Очень довольна сервисом!",
+    "text": "Came here after a bad wash elsewhere. They not only fixed all the issues but made my interior spotless. Very pleased with the service!",
     "verified": true,
     "date": "2024-10-08"
   },
   {
     "id": "review-3",
-    "name": "Дмитрий Козлов",
+    "name": "David Cooper",
     "car": "Audi Q7",
     "rating": 5,
-    "text": "Делал полировку и PPF на новую машину. Работа выполнена безупречно, все объяснили, показали. Цена соответствует качеству. Рекомендую!",
+    "text": "Got polishing and PPF done on my new car. Work was flawless, they explained everything and showed me the process. Price matches quality. Highly recommend!",
     "verified": true,
     "date": "2024-09-28"
   },
   {
     "id": "review-4",
-    "name": "Елена Волкова",
+    "name": "Emily Walker",
     "car": "Lexus RX",
     "rating": 5,
-    "text": "Химчистка салона превзошла все ожидания. Удалили даже те пятна, которые я считала безнадежными. Быстро, качественно, аккуратно.",
+    "text": "Interior cleaning exceeded all expectations. They removed stains I thought were permanent. Fast, quality work, very careful.",
     "verified": true,
     "date": "2024-09-20"
   },
   {
     "id": "review-5",
-    "name": "Сергей Иванов",
+    "name": "Robert Martinez",
     "car": "Porsche Cayenne",
     "rating": 5,
-    "text": "Постоянный клиент уже 2 года. Всегда высокое качество работ, соблюдение сроков, честные цены. Доверяю свой автомобиль только этим мастерам.",
+    "text": "Been a regular client for 2 years. Always high-quality work, punctual, honest pricing. I only trust these professionals with my car.",
     "verified": true,
     "date": "2024-09-12"
   },
   {
     "id": "review-6",
-    "name": "Анна Морозова",
+    "name": "Anna Foster",
     "car": "Tesla Model 3",
     "rating": 5,
-    "text": "Керамическое покрытие просто волшебство! Машина моется одним движением, грязь не прилипает. Стоит каждого потраченного рубля.",
+    "text": "Ceramic coating is pure magic! The car cleans with one swipe, dirt doesn't stick. Worth every dollar spent.",
     "verified": true,
     "date": "2024-08-30"
   },
   {
     "id": "review-7",
-    "name": "Владимир Смирнов",
+    "name": "William Thompson",
     "car": "Range Rover Sport",
     "rating": 5,
-    "text": "Восстанавливали машину после зимы - полировка, химчистка, защита. Результат потрясающий! Машина как новая. Спасибо за профессионализм!",
+    "text": "Restored my car after winter - polishing, interior cleaning, protection. Amazing results! Car looks like new. Thanks for the professionalism!",
     "verified": true,
     "date": "2024-08-22"
   },
   {
     "id": "review-8",
-    "name": "Ольга Кузнецова",
+    "name": "Olivia Davis",
     "car": "Mini Cooper",
     "rating": 5,
-    "text": "Небольшая, но любимая машинка получила королевский уход. Внимание к деталям поражает - каждый уголок проработан идеально.",
+    "text": "My small but beloved car got royal treatment. Attention to detail is amazing - every corner was perfected.",
     "verified": true,
     "date": "2024-08-15"
   },
   {
     "id": "review-9",
-    "name": "Игорь Федоров",
+    "name": "James Wilson",
     "car": "Ferrari 488",
     "rating": 5,
-    "text": "Доверил суперкар для нанесения PPF. Работа выполнена на высшем уровне, пленка практически незаметна. Теперь спокоен за лакокрасочное покрытие.",
+    "text": "Trusted my supercar for PPF installation. Work done at the highest level, film is practically invisible. Now I'm at ease about the paintwork.",
     "verified": true,
     "date": "2024-08-08"
   },
   {
     "id": "review-10",
-    "name": "Татьяна Орлова",
+    "name": "Sophia Anderson",
     "car": "Volvo XC90",
     "rating": 5,
-    "text": "Семейный автомобиль нуждался в глубокой чистке после поездок с детьми. Результат превзошел ожидания - салон как новый!",
+    "text": "Family car needed deep cleaning after trips with kids. Results exceeded expectations - interior looks brand new!",
     "verified": true,
     "date": "2024-07-25"
   }

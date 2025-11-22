@@ -5,21 +5,21 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
-export function formatPrice(price: number, currency: string = 'сом'): string {
-  return `от ${price.toLocaleString('ru-RU')} ${currency}`
+export function formatPrice(price: number, currency: string = 'USD'): string {
+  return `from $${price.toLocaleString('en-US')}`
 }
 
 export function formatDuration(hours: number): string {
   if (hours < 1) {
-    return `${Math.round(hours * 60)} мин`
+    return `${Math.round(hours * 60)} min`
   }
   if (hours === 1) {
-    return '1 час'
+    return '1 hour'
   }
   if (hours < 5) {
-    return `${hours} часа`
+    return `${hours} hours`
   }
-  return `${hours} часов`
+  return `${hours} hours`
 }
 
 export function scrollToElement(elementId: string) {

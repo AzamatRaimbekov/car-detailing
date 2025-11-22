@@ -35,11 +35,15 @@ export function PricingSection() {
   }
 
   return (
-    <section id="pricing" className="section-padding bg-gradient-to-br from-graphite-900 via-graphite-800 to-graphite-900 relative overflow-hidden">
+    <section 
+      id="pricing" 
+      className="section-padding bg-gradient-to-br from-graphite-900 via-graphite-800 to-graphite-900 relative overflow-hidden"
+      aria-label="Pricing - Service packages and pricing"
+    >
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-liquid-gloss-500 rounded-full blur-3xl" />
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-liquid-gloss-400 rounded-full blur-3xl" />
+        <div className="absolute top-20 left-10 w-72 h-72 bg-gold-500 rounded-full blur-3xl" />
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-gold-400 rounded-full blur-3xl" />
       </div>
 
       <div className="container mx-auto container-padding relative z-10">
@@ -51,11 +55,11 @@ export function PricingSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Пакеты
-            <span className="text-gradient ml-3">услуг</span>
+            Service
+            <span className="text-gradient ml-3">Packages</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Готовые решения для любых потребностей - от быстрого ухода до премиальной защиты
+            Ready solutions for any needs - from quick care to premium protection
           </p>
         </motion.div>
 
@@ -78,7 +82,7 @@ export function PricingSection() {
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-10">
                   <Badge variant="hit" className="px-4 py-1 text-sm font-semibold">
                     <Star className="w-4 h-4 mr-1" />
-                    Рекомендуем
+                    Recommended
                   </Badge>
                 </div>
               )}
@@ -87,7 +91,7 @@ export function PricingSection() {
 variant={pkg.best ? undefined : "glass"}
                 className={`h-full group transition-all duration-300 border-0 ${
                   pkg.best 
-                    ? 'bg-gradient-to-br from-liquid-gloss-500/20 to-liquid-gloss-600/10 border-2 border-liquid-gloss-400/50 shadow-2xl shadow-liquid-gloss-500/25' 
+                    ? 'bg-gradient-to-br from-gold-500/20 to-gold-600/10 border-2 border-gold-400/50 shadow-2xl shadow-gold-500/25' 
                     : 'hover:bg-white/15'
                 }`}
               >
@@ -98,18 +102,18 @@ variant={pkg.best ? undefined : "glass"}
                   <p className="text-gray-300 text-sm mb-4">
                     {pkg.description}
                   </p>
-                  <div className="text-4xl font-bold text-liquid-gloss-400 mb-2">
+                  <div className="text-4xl font-bold text-gold-400 mb-2">
                     {formatPrice(pkg.priceFrom)}
                   </div>
                 </CardHeader>
 
                 <CardContent className="flex-1 flex flex-col">
                   <div className="flex-1">
-                    <h4 className="font-semibold text-white mb-4">Включено:</h4>
+                    <h4 className="font-semibold text-white mb-4">Includes:</h4>
                     <ul className="space-y-3 mb-6">
                       {pkg.includes.map((item, itemIndex) => (
                         <li key={itemIndex} className="flex items-start text-gray-300 text-sm">
-                          <Check className="w-4 h-4 text-liquid-gloss-400 mr-2 mt-0.5 flex-shrink-0" />
+                          <Check className="w-4 h-4 text-gold-400 mr-2 mt-0.5 flex-shrink-0" />
                           {item}
                         </li>
                       ))}
@@ -117,7 +121,7 @@ variant={pkg.best ? undefined : "glass"}
 
                     {pkg.recommendedFor && (
                       <div className="mb-6">
-                        <h5 className="font-medium text-white mb-2 text-sm">Рекомендуется для:</h5>
+                        <h5 className="font-medium text-white mb-2 text-sm">Recommended for:</h5>
                         <div className="flex flex-wrap gap-1">
                           {pkg.recommendedFor.map((rec, recIndex) => (
                             <Badge key={recIndex} variant="glass" className="text-xs">
@@ -134,7 +138,7 @@ variant={pkg.best ? undefined : "glass"}
                     className="w-full group-hover:scale-105 transition-transform"
                     onClick={() => handlePackageSelect(pkg.id, pkg.title)}
                   >
-                    Записаться на {pkg.title}
+                    Book {pkg.title}
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
                 </CardContent>
@@ -152,11 +156,11 @@ variant={pkg.best ? undefined : "glass"}
         >
           <Card variant="glass" className="p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Индивидуальный подход
+              Personalized Approach
             </h3>
             <p className="text-gray-300 mb-6">
-              Каждый автомобиль уникален. Мы можем составить персональный пакет услуг, 
-              учитывающий особенности вашего авто и ваши потребности.
+              Every car is unique. We can create a personalized service package 
+              that takes into account your car's features and your needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -167,7 +171,7 @@ variant={pkg.best ? undefined : "glass"}
                   scrollToElement('booking')
                 }}
               >
-                Составить индивидуальный пакет
+                Create Custom Package
               </Button>
               <Button
                 variant="glass"
@@ -177,7 +181,7 @@ variant={pkg.best ? undefined : "glass"}
                   // Open consultation modal or scroll to contacts
                 }}
               >
-                Получить консультацию
+                Get Consultation
               </Button>
             </div>
           </Card>

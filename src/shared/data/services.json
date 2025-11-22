@@ -1,219 +1,219 @@
 [
   {
     "id": "contactless-wash",
-    "title": "Бесконтактная мойка",
+    "title": "Contactless Wash",
     "category": "exterior",
-    "short": "Деликатная мойка без повреждения лакокрасочного покрытия",
+    "short": "Gentle wash without damaging the paintwork",
     "details": [
-      "Предварительное замачивание активной пеной",
-      "Бесконтактная мойка под давлением",
-      "Сушка микрофиброй",
-      "Обработка колесных дисков",
-      "Очистка стекол"
+      "Pre-soak with active foam",
+      "Contactless pressure wash",
+      "Microfiber drying",
+      "Wheel treatment",
+      "Glass cleaning"
     ],
     "durationHours": 1,
-    "priceFrom": 800,
+    "priceFrom": 50,
     "tag": "hit"
   },
   {
     "id": "deep-cleaning",
-    "title": "Глубокая очистка кузова",
+    "title": "Deep Body Cleaning",
     "category": "exterior",
-    "short": "Комплексная очистка с удалением стойких загрязнений",
+    "short": "Comprehensive cleaning with removal of stubborn contaminants",
     "details": [
-      "Предварительная мойка",
-      "Обработка битумных пятен",
-      "Удаление следов насекомых",
-      "Глиняная обработка кузова",
-      "Финишная мойка и сушка",
-      "Обработка пластиковых элементов"
+      "Pre-wash",
+      "Tar spot treatment",
+      "Bug residue removal",
+      "Clay bar treatment",
+      "Final wash and dry",
+      "Plastic trim treatment"
     ],
     "durationHours": 2,
-    "priceFrom": 1500
+    "priceFrom": 100
   },
   {
     "id": "polishing-1-stage",
-    "title": "Полировка 1 этап",
+    "title": "1-Stage Polishing",
     "category": "exterior",
-    "short": "Восстановление блеска и удаление мелких царапин",
+    "short": "Restore shine and remove minor scratches",
     "details": [
-      "Подготовка поверхности",
-      "Машинная полировка абразивной пастой",
-      "Удаление голограмм",
-      "Финишная полировка",
-      "Нанесение защитного воска"
+      "Surface preparation",
+      "Machine polish with abrasive compound",
+      "Hologram removal",
+      "Final polish",
+      "Protective wax application"
     ],
     "durationHours": 4,
-    "priceFrom": 8000
+    "priceFrom": 400
   },
   {
     "id": "polishing-3-stage",
-    "title": "Полировка 3 этапа",
+    "title": "3-Stage Polishing",
     "category": "exterior",
-    "short": "Профессиональная коррекция с максимальным результатом",
+    "short": "Professional correction with maximum results",
     "details": [
-      "Диагностика лакокрасочного покрытия",
-      "Грубая абразивная полировка",
-      "Промежуточная полировка",
-      "Финишная полировка до зеркального блеска",
-      "Нанесение защитного покрытия",
-      "Полировка хромированных элементов"
+      "Paintwork diagnostics",
+      "Heavy cut abrasive polishing",
+      "Intermediate polishing",
+      "Final polish to mirror finish",
+      "Protective coating application",
+      "Chrome element polishing"
     ],
     "durationHours": 8,
-    "priceFrom": 18000,
+    "priceFrom": 900,
     "tag": "hit"
   },
   {
     "id": "ceramic-coating",
-    "title": "Керамическое покрытие 9H",
+    "title": "9H Ceramic Coating",
     "category": "protection",
-    "short": "Долговременная защита кузова на 2-3 года",
+    "short": "Long-lasting body protection for 2-3 years",
     "details": [
-      "Подготовительная мойка и сушка",
-      "Полировка до идеального состояния",
-      "Обезжиривание поверхности",
-      "Нанесение керамического покрытия в 2 слоя",
-      "Сушка в специальных условиях",
-      "Финишная проверка качества"
+      "Preparatory wash and dry",
+      "Polishing to perfect condition",
+      "Surface degreasing",
+      "2-layer ceramic coating application",
+      "Drying in special conditions",
+      "Final quality check"
     ],
     "durationHours": 12,
-    "priceFrom": 25000,
+    "priceFrom": 1200,
     "tag": "new"
   },
   {
     "id": "headlight-restoration",
-    "title": "Восстановление фар",
+    "title": "Headlight Restoration",
     "category": "exterior",
-    "short": "Возвращение прозрачности помутневшим фарам",
+    "short": "Restore clarity to hazy headlights",
     "details": [
-      "Демонтаж фар (при необходимости)",
-      "Шлифовка абразивами разной зернистости",
-      "Полировка до прозрачности",
-      "Нанесение защитного лака",
-      "Установка и проверка герметичности"
+      "Headlight removal (if necessary)",
+      "Sanding with different grit abrasives",
+      "Polishing to clarity",
+      "Protective lacquer application",
+      "Installation and seal check"
     ],
     "durationHours": 3,
-    "priceFrom": 3500
+    "priceFrom": 150
   },
   {
     "id": "interior-cleaning",
-    "title": "Химчистка салона",
+    "title": "Interior Deep Clean",
     "category": "interior",
-    "short": "Глубокая очистка всех поверхностей салона",
+    "short": "Deep cleaning of all interior surfaces",
     "details": [
-      "Пылесос всех поверхностей",
-      "Химчистка сидений и обивки",
-      "Очистка пластиковых панелей",
-      "Обработка кожаных элементов",
-      "Чистка ковриков",
-      "Ароматизация салона"
+      "Vacuum all surfaces",
+      "Seats and upholstery cleaning",
+      "Plastic panel cleaning",
+      "Leather element treatment",
+      "Mat cleaning",
+      "Interior fragrance"
     ],
     "durationHours": 4,
-    "priceFrom": 5000,
+    "priceFrom": 250,
     "tag": "hit"
   },
   {
     "id": "textile-protection",
-    "title": "Защита текстиля",
+    "title": "Textile Protection",
     "category": "protection",
-    "short": "Нанесение защитного покрытия на тканевые поверхности",
+    "short": "Protective coating application on fabric surfaces",
     "details": [
-      "Предварительная химчистка",
-      "Нанесение защитного состава",
-      "Обработка всех тканевых поверхностей",
-      "Создание водо- и грязеотталкивающего слоя"
+      "Pre-cleaning",
+      "Protective compound application",
+      "Treatment of all fabric surfaces",
+      "Water and stain repellent layer creation"
     ],
     "durationHours": 2,
-    "priceFrom": 3000
+    "priceFrom": 150
   },
   {
     "id": "ozonation",
-    "title": "Озонирование салона",
+    "title": "Interior Ozonation",
     "category": "interior",
-    "short": "Устранение неприятных запахов и дезинфекция",
+    "short": "Odor removal and disinfection",
     "details": [
-      "Подготовка салона к обработке",
-      "Генерация озона специальным оборудованием",
-      "Обработка всего объема салона",
-      "Проветривание и финишная проверка"
+      "Interior preparation for treatment",
+      "Ozone generation with special equipment",
+      "Full interior volume treatment",
+      "Ventilation and final check"
     ],
     "durationHours": 1,
-    "priceFrom": 1500
+    "priceFrom": 75
   },
   {
     "id": "engine-cleaning",
-    "title": "Мойка моторного отсека",
+    "title": "Engine Bay Cleaning",
     "category": "addons",
-    "short": "Профессиональная очистка подкапотного пространства",
+    "short": "Professional cleaning of under-hood space",
     "details": [
-      "Защита электронных компонентов",
-      "Нанесение специальных составов",
-      "Мойка под давлением",
-      "Сушка и обработка пластиковых элементов",
-      "Нанесение защитного блеска"
+      "Electronic component protection",
+      "Special compound application",
+      "Pressure wash",
+      "Drying and plastic element treatment",
+      "Protective shine application"
     ],
     "durationHours": 2,
-    "priceFrom": 2500
+    "priceFrom": 125
   },
   {
     "id": "ppf-hood",
-    "title": "PPF защита капота",
+    "title": "PPF Hood Protection",
     "category": "protection",
-    "short": "Антигравийная пленка для защиты от сколов",
+    "short": "Paint protection film for chip protection",
     "details": [
-      "Подготовка поверхности",
-      "Раскрой пленки по лекалам",
-      "Влажная установка пленки",
-      "Разглаживание и удаление пузырей",
-      "Подрезка и финишная обработка краев"
+      "Surface preparation",
+      "Film cutting to patterns",
+      "Wet installation",
+      "Smoothing and bubble removal",
+      "Trimming and edge finishing"
     ],
     "durationHours": 4,
-    "priceFrom": 15000
+    "priceFrom": 750
   },
   {
     "id": "ppf-full",
-    "title": "PPF полный кузов",
+    "title": "Full Body PPF",
     "category": "protection",
-    "short": "Комплексная защита всего автомобиля",
+    "short": "Comprehensive protection for entire vehicle",
     "details": [
-      "Детальная подготовка всех поверхностей",
-      "Компьютерный раскрой пленки",
-      "Поэтапная установка по панелям",
-      "Термоформовка сложных участков",
-      "Финишная обработка всех стыков",
-      "Гарантийная проверка качества"
+      "Detailed preparation of all surfaces",
+      "Computer-cut film",
+      "Panel-by-panel installation",
+      "Heat forming of complex areas",
+      "Final treatment of all joints",
+      "Warranty quality check"
     ],
     "durationHours": 16,
-    "priceFrom": 80000,
+    "priceFrom": 4000,
     "tag": "new"
   },
   {
     "id": "glass-protection",
-    "title": "Защита стекол",
+    "title": "Glass Protection",
     "category": "protection",
-    "short": "Гидрофобное покрытие для улучшения видимости",
+    "short": "Hydrophobic coating for improved visibility",
     "details": [
-      "Тщательная очистка всех стекол",
-      "Обезжиривание поверхности",
-      "Нанесение гидрофобного состава",
-      "Полировка до равномерного покрытия"
+      "Thorough cleaning of all glass",
+      "Surface degreasing",
+      "Hydrophobic compound application",
+      "Polishing to even coverage"
     ],
     "durationHours": 1,
-    "priceFrom": 2000
+    "priceFrom": 100
   },
   {
     "id": "convertible-roof",
-    "title": "Обслуживание кабрио-крыши",
+    "title": "Convertible Roof Service",
     "category": "addons",
-    "short": "Специализированный уход за мягкой крышей",
+    "short": "Specialized care for soft top",
     "details": [
-      "Диагностика состояния крыши",
-      "Специальная чистка тканевых элементов",
-      "Обработка водоотталкивающими составами",
-      "Проверка механизмов складывания",
-      "Смазка подвижных элементов"
+      "Roof condition diagnostics",
+      "Special cleaning of fabric elements",
+      "Water repellent treatment",
+      "Folding mechanism check",
+      "Moving element lubrication"
     ],
     "durationHours": 3,
-    "priceFrom": 4500
+    "priceFrom": 225
   }
 ]
